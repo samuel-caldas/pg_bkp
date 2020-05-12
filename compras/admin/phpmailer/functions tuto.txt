@@ -1,0 +1,54 @@
+    /////////////////////////////////////////////////
+  // CLASS METHODS, MESSAGE RESET
+  /////////////////////////////////////////////////
+
+  /**
+   * Clears all recipients assigned in the TO array.  Returns void.
+   * @return void
+   */
+  public function ClearAddresses() {
+  }
+
+  /**
+   * Clears all recipients assigned in the CC array.  Returns void.
+   * @return void
+   */
+  public function ClearCCs() {
+  }
+
+  /**
+   * Clears all recipients assigned in the BCC array.  Returns void.
+   * @return void
+   */
+  public function ClearBCCs() {
+  }
+
+  /**
+   * Clears all recipients assigned in the ReplyTo array.  Returns void.
+   * @return void
+   */
+  public function ClearReplyTos() {
+  }
+
+  /**
+   * Clears all recipients assigned in the TO, CC and BCC
+   * array.  Returns void.
+   * @return void
+   */
+  public function ClearAllRecipients() {
+  }
+
+  /**
+   * Clears all previously set filesystem, string, and binary
+   * attachments.  Returns void.
+   * @return void
+   */
+  public function ClearAttachments() {
+  }
+
+  /**
+   * Clears all custom headers.  Returns void.
+   * @return void
+   */
+  public function ClearCustomHeaders() {
+  }

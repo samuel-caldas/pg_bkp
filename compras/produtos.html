@@ -1,0 +1,73 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Tickets</title>
+<style type="text/css">
+body,td,th {
+	color: #333;
+	font-family: "Segoe UI";
+	font-weight: lighter;
+}
+body {
+	background-color: #f8f8f8;
+}
+a:link {
+	color: #333;
+	text-decoration: none;
+}
+a:visited {
+	text-decoration: none;
+	color: #333;
+}
+a:hover {
+	text-decoration: underline;
+	color: #333;
+}
+a:active {
+	text-decoration: none;
+	color: #333;
+}
+</style>
+</head>
+
+<body>
+<p>Escolha o valor do ticket, voce pode somar valores (Ex.: 50,00+70,00=120,00)</p>
+<p>
+<!-- INICIO FORMULARIO BOTAO PAGSEGURO 25 -->
+<form action="https://pagseguro.uol.com.br/checkout/v2/cart.html?action=add" method="post" name="25" target="pagseguro" id="25">
+25,00
+<input type="hidden" name="itemCode" value="BAEDBF1ED6D665C114101FB40D56A03E" />
+<input name="Comprar" type="submit" value="Comprar">
+</form>
+<!-- FINAL FORMULARIO BOTAO PAGSEGURO 25 -->
+</p>
+<p>
+<!-- INICIO FORMULARIO BOTAO PAGSEGURO 50 -->
+<form action="https://pagseguro.uol.com.br/checkout/v2/cart.html?action=add" method="post" target="pagseguro" id="50">
+50,00
+  <input type="hidden" name="itemCode" value="FBDB2B9AE9E9D8500406CF9A2D236D73" />
+  <input name="Comprar2" type="submit" value="Comprar">
+</form>
+<!-- FINAL FORMULARIO BOTAO PAGSEGURO 50 -->
+</p>
+<p>
+<!-- INICIO FORMULARIO BOTAO PAGSEGURO -->
+<form target="pagseguro" action="https://pagseguro.uol.com.br/checkout/v2/cart.html?action=add" method="post">
+60,00
+  <input type="hidden" name="itemCode" value="00848110ADAD1AEFF42D9FAA65DD1B2C" />
+  <input name="Comprar3" type="submit" value="Comprar">
+</form>
+<!-- FINAL FORMULARIO BOTAO PAGSEGURO -->
+</p>
+<p>
+<!-- INICIO FORMULARIO BOTAO PAGSEGURO -->
+<form target="pagseguro" action="https://pagseguro.uol.com.br/checkout/v2/cart.html?action=add" method="post">
+70,00
+  <input type="hidden" name="itemCode" value="E4E510E1C6C6276AA4CEFF9CB39BE7F4" />
+  <input name="Comprar4" type="submit" value="Comprar">
+</form>
+<!-- FINAL FORMULARIO BOTAO PAGSEGURO -->
+</p>
+</body>
+</html>
